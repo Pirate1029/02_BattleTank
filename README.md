@@ -25,3 +25,11 @@ The Concept, Rules and Requirements of our simple game.
 + Commit = save a local snapshot
 + Reset = roll-back to a previous state
 + Branch, Push and Large File Support later.
+
+### Landscaping
+
++ Creating & Deleting
++ Setup & Scaling
++ Landscape Layering
++ Flat Shading Low Poly Landscapes
++ Additional Tools
