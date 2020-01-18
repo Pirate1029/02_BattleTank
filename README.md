@@ -33,3 +33,9 @@ The Concept, Rules and Requirements of our simple game.
 + Landscape Layering
 + Flat Shading Low Poly Landscapes
 + Additional Tools
+
+### Configuring a tank
+
++ Importing combined meshes
++ Making Tank_BP as pawn
++ Adding sockets to Tank_BP for body, turret, barrel and tracks
