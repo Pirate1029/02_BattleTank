@@ -39,3 +39,9 @@ The Concept, Rules and Requirements of our simple game.
 + Importing combined meshes
 + Making Tank_BP as pawn
 + Adding sockets to Tank_BP for body, turret, barrel and tracks
+
+### 3rd Person Camera Control
+
++ Adding Camera with spring arm component on Tank_BP
++ Adding inputs as axes for Azimuth & Altitude (Elevation)
++ Setting up Camera input bindings for yaw and pitch in Tank_BP event graph
