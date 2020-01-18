@@ -45,3 +45,9 @@ The Concept, Rules and Requirements of our simple game.
 + Adding Camera with spring arm component on Tank_BP
 + Adding inputs as axes for Azimuth & Altitude (Elevation)
 + Setting up Camera input bindings for yaw and pitch in Tank_BP event graph
+
+### Fixing 3rd Person Camera Rotation
+
++ Adding Azimuth Gimbal (Scene Component) as parent of SpringArm
++ Changing Local Rotation for Yaw target to the Azimuth Gimbal in Input Setup Graph
++ Disabling camera roll for SpringArm (Optional)
