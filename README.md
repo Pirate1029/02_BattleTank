@@ -51,3 +51,13 @@ The Concept, Rules and Requirements of our simple game.
 + Adding Azimuth Gimbal (Scene Component) as parent of SpringArm
 + Changing Local Rotation for Yaw target to the Azimuth Gimbal in Input Setup Graph
 + Disabling camera roll for SpringArm (Optional)
+
+### User Interface (UI)
+
++ Creating User Interface Widget
++ Setting anchor to 50% Horizontal, 33.3% Vertical
++ Centering image to center of anchor+
++ Creating TankPlayerController_BP
++ Referencing PlayerUI widget to add to viewport in TankPlayerController_BP
++ Setting Player Controller Class in BattleTankGameMode_BP to be the newly create TankPlayerController_BP
+
