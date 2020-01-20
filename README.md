@@ -61,3 +61,11 @@ The Concept, Rules and Requirements of our simple game.
 + Referencing PlayerUI widget to add to viewport in TankPlayerController_BP
 + Setting Player Controller Class in BattleTankGameMode_BP to be the newly create TankPlayerController_BP
 
+### Main Menu
+
++ Creating a new menu widget
++ Importing image into Unreal
++ Showing Mouse Cursor at Main Menu (Target: Player Controller)
++ Creating Scale Box with Stretch set to "Scale to Fill" in MenuUI Widget
++ Importing font for texts
++ Adding Start Button and Title (Battle Tank)
