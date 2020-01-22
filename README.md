@@ -69,3 +69,9 @@ The Concept, Rules and Requirements of our simple game.
 + Creating Scale Box with Stretch set to "Scale to Fill" in MenuUI Widget
 + Importing font for texts
 + Adding Start Button and Title (Battle Tank)
+
+### Controller Ready Navigation
+
++ Changing scene to battleground after start button is clicked (Done in widget event graph)
++ Creating custom event to focus start button when game launches
++ Action mappings for quitting the game
