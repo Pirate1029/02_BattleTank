@@ -75,3 +75,9 @@ The Concept, Rules and Requirements of our simple game.
 + Changing scene to battleground after start button is clicked (Done in widget event graph)
 + Creating custom event to focus start button when game launches
 + Action mappings for quitting the game
+
+### Trial Packaging a Game
+
++ Settings editor startup map and game default map to certain levels
++ Finding WindowNoEditor with executable inside
++ Setting input mode to "game only" after start button is clicked from Main Menu
