@@ -87,3 +87,8 @@ The Concept, Rules and Requirements of our simple game.
 + Creating a C++ class TankPlayerController
 + Creating a C++ class Tank (pawn)
 + Re-parenting the BP classes onto the C++ classes
+
+### Using virtual and override
+
++ Testing BeginPlay override
++ Testing if GetControlledTank return value is working
