@@ -81,3 +81,9 @@ The Concept, Rules and Requirements of our simple game.
 + Settings editor startup map and game default map to certain levels
 + Finding WindowNoEditor with executable inside
 + Setting input mode to "game only" after start button is clicked from Main Menu
+
+### Delegating to Components
+
++ Creating a C++ class TankPlayerController
++ Creating a C++ class Tank (pawn)
++ Re-parenting the BP classes onto the C++ classes
