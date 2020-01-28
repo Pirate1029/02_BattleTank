@@ -92,3 +92,8 @@ The Concept, Rules and Requirements of our simple game.
 
 + Testing BeginPlay override
 + Testing if GetControlledTank return value is working
+
+### TankAIController
+
++ Printing each AITank name in log
++ Each AITank being able to find PlayerTank
