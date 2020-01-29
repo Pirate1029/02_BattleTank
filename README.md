@@ -97,3 +97,9 @@ The Concept, Rules and Requirements of our simple game.
 
 + Printing each AITank name in log
 + Each AITank being able to find PlayerTank
+
+### Add Tick() to PlayerController
+
++ Overriding Tick() function just like how BeginPlay() was overridden
++ Creating the AimTowardsCrosshair() method to move the barrel so that a shot would hit where the crosshair intersects the world
++ Calling AimTowardsCrosshair() method in Tick function
