@@ -103,3 +103,8 @@ The Concept, Rules and Requirements of our simple game.
 + Overriding Tick() function just like how BeginPlay() was overridden
 + Creating the AimTowardsCrosshair() method to move the barrel so that a shot would hit where the crosshair intersects the world
 + Calling AimTowardsCrosshair() method in Tick function
+
+### Creating an Out Parameter Method
+
++ Logging hit location as an FVector
++ Setting up the architecture for the GetSightRayHitLocation() method
