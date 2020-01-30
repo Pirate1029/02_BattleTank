@@ -108,3 +108,9 @@ The Concept, Rules and Requirements of our simple game.
 
 + Logging hit location as an FVector
 + Setting up the architecture for the GetSightRayHitLocation() method
+
+### Finding Screen Pixel Coordinates
+
++ Finding crosshair position
++ De-projecting screen position of the crosshair to a world position
++ Line-tracing along that look direction and seeing what we hit (up to a maximum range)
