@@ -114,3 +114,9 @@ The Concept, Rules and Requirements of our simple game.
 + Finding crosshair position
 + De-projecting screen position of the crosshair to a world position
 + Line-tracing along that look direction and seeing what we hit (up to a maximum range)
+
+### Using DeprojectScreenToWorld
+
++ Checking to make sure DeprojectScreenPositionToWorld returns true
++ Logging Look direction (WorldDirection) using DeprojectScreenPositionToWorld with the WorldDirection as one of the parameters
++ Putting DeprojectScreenPositionToWorld into it's own method
