@@ -120,3 +120,9 @@ The Concept, Rules and Requirements of our simple game.
 + Checking to make sure DeprojectScreenPositionToWorld returns true
 + Logging Look direction (WorldDirection) using DeprojectScreenPositionToWorld with the WorldDirection as one of the parameters
 + Putting DeprojectScreenPositionToWorld into it's own method
+
+### Using LineTraceSingleByChannel()
+
++ Finding camera location
++ Finding reticle position in world space
++ Using LineTraceSingleByChannel to get the FVector type of OutHitLocation
