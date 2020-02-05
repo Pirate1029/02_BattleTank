@@ -126,3 +126,8 @@ The Concept, Rules and Requirements of our simple game.
 + Finding camera location
 + Finding reticle position in world space
 + Using LineTraceSingleByChannel to get the FVector type of OutHitLocation
+
+### Unify Player & AI Aiming
+
++ Identifying player tank as AI
++ Teaching AI to aim reticle toward player tank
