@@ -131,3 +131,10 @@ The Concept, Rules and Requirements of our simple game.
 
 + Identifying player tank as AI
 + Teaching AI to aim reticle toward player tank
+
+### Creation of Default Sub Objects in C++
+
++ Creating aiming component directly from script
++ Creating actor component C++ class called TankAimingComponent
++ Creating TankAimingComponent as a DefaultSubObject of Tank
++ Aiming form TankAimingComponent instead of Tank class
