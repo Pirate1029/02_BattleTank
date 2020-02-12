@@ -138,3 +138,11 @@ The Concept, Rules and Requirements of our simple game.
 + Creating actor component C++ class called TankAimingComponent
 + Creating TankAimingComponent as a DefaultSubObject of Tank
 + Aiming form TankAimingComponent instead of Tank class
+
+### BlueprintCallable()
+
++ Creating a SetBarrelReference in TankAimingComponent.h
++ Creating blueprint callable function SetBarrelReference in Tank.h
++ Setting Barrel Component to BarrelToSet parameter at BeginPlay in Event Graph
++ Setting BarrelLocation to component location
++ Printing where each tank barrel is
