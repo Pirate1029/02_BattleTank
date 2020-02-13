@@ -146,3 +146,8 @@ The Concept, Rules and Requirements of our simple game.
 + Setting Barrel Component to BarrelToSet parameter at BeginPlay in Event Graph
 + Setting BarrelLocation to component location
 + Printing where each tank barrel is
+
+### SuggestProjectileVelocity()
+
++ Setting LaunchSpeed as a float with UPROPERTY EditAnywhere
++ Setting sensible default value (unknown at the moment)
