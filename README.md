@@ -151,3 +151,8 @@ The Concept, Rules and Requirements of our simple game.
 
 + Setting LaunchSpeed as a float with UPROPERTY EditAnywhere
 + Setting sensible default value (unknown at the moment)
+
+### Using FRotators
+
++ Creating MoveBarrel method
++ Finding rotation for the barrel
