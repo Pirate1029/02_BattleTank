@@ -156,3 +156,9 @@ The Concept, Rules and Requirements of our simple game.
 
 + Creating MoveBarrel method
 + Finding rotation for the barrel
+
+### C++ Compilation Process
+
++ Header file is pasted at the top of CPP file
++ CPP file is compiled into an object file (.obj)
++ Don't hash include header files into header files (only do this for inheritance)
