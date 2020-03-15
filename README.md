@@ -162,3 +162,10 @@ The Concept, Rules and Requirements of our simple game.
 + Header file is pasted at the top of CPP file
 + CPP file is compiled into an object file (.obj)
 + Don't hash include header files into header files (only do this for inheritance)
+
+### Using Forward Declarations
+
++ Create TankBarrel component
++ Write an Elevate method called from MoveBarrelTowards method in TankAimingComponent.cpp
++ Forward declare UTankBarrel in TankAimingComponent.h
++ including TankBarrel.h in TankAimingComponent.cpp (as Barrel is derived from UTankBarrel)
