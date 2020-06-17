@@ -175,3 +175,8 @@ The Concept, Rules and Requirements of our simple game.
 + Make TankBarrel a custom component with 'meta = (BlueprintSpawnableComponent)'  as a parameter of UCLASS
 + Hide "collision" category
 + Make min and max elevation degrees for barrel with sensible defaults
+
+### Review Our Execution Flow
+
++ Make CanEverTick = false in Tank.cpp (TankAimingComponent needs active tick function)
++ Add a float for Time in TankBarrel.cpp to log out time and speed of barrel elevation
