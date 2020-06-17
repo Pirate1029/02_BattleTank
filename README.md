@@ -169,3 +169,9 @@ The Concept, Rules and Requirements of our simple game.
 + Write an Elevate method called from MoveBarrelTowards method in TankAimingComponent.cpp
 + Forward declare UTankBarrel in TankAimingComponent.h
 + including TankBarrel.h in TankAimingComponent.cpp (as Barrel is derived from UTankBarrel)
+
+### BlueprintSpawnableComponent()
+
++ Make TankBarrel a custom component with 'meta = (BlueprintSpawnableComponent)'  as a parameter of UCLASS
++ Hide "collision" category
++ Make min and max elevation degrees for barrel with sensible defaults
